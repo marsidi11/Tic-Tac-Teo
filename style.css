@@ -69,12 +69,12 @@ p {
 	.title {
 		position: absolute;
 		margin-top: 2px;
-		transform: translateX(25%);
+		transform: translateX(10%);
 		font-size: 50px;
 	}
 	.result {
 		position: absolute;
-		margin-right: 11%;
+		margin-right: 17%;
 		position: absolute;
 		top: 100%;
 	}
@@ -83,8 +83,6 @@ p {
 		height: 400px;
 		position: absolute;
 		top: 60%;
-		margin-left: 5px;
-		margin-right: 5px;
 		margin-bottom: 100px;
 	}
 }
