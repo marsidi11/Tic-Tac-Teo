@@ -70,6 +70,7 @@ p {
 		position: absolute;
 		margin-top: 2px;
 		font-size: 50px;
+		width: 70%;
 	}
 	.result {
 		position: absolute;
@@ -78,10 +79,10 @@ p {
 		top: 100%;
 	}
 	table {
-		width: 400px;
-		height: 400px;
+		width: 90%;
+		height: 90%;
 		position: absolute;
-		top: 60%;
+		top: 63%;
 		margin-bottom: 100px;
 	}
 }
