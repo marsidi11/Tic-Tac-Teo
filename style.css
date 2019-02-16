@@ -27,7 +27,7 @@ input {
 ol {
 	font-family: "Staatliches"
 }
-ol.title {
+.title {
 	width: 200px;
 	font-size: 100px;
 	color: white;
@@ -54,7 +54,7 @@ ol.title {
 }
 p {
 	font-size: 35px;
-	color: #121212;
+	color: #f39c12;
 	margin: 1px;
 }
 .reset {
@@ -67,17 +67,24 @@ p {
 }
 @media (max-width: 480px) {
 	.title {
-		visibility: hidden;
+		position: absolute;
+		margin-top: 2px;
+		transform: translateX(25%);
+		font-size: 50px;
 	}
 	.result {
 		position: absolute;
 		margin-right: 11%;
+		position: absolute;
+		top: 100%;
 	}
 	table {
 		width: 400px;
 		height: 400px;
 		position: absolute;
-		top: 100%;
+		top: 60%;
+		margin-left: 5px;
+		margin-right: 5px;
 		margin-bottom: 100px;
 	}
 }
