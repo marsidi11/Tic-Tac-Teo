@@ -1,9 +1,30 @@
-var p1 = getElementById('1').value;
-var p2 = getElementById('2').value;
-var p3 = getElementById('3').value;
-var p4 = getElementById('4').value;
-var p5 = getElementById('5').value;
-var p6 = getElementById('6').value;
-var p7 = getElementById('7').value;
-var p8 = getElementById('8').value;
-var p9 = getElementById('9').value;
+function po1() {
+	document.getElementById('img1').src = "img/oicon.svg";
+}
+function po2() {
+	document.getElementById('img2').src = "img/oicon.svg";
+}
+function po3() {
+	document.getElementById('img3').src = "img/oicon.svg";
+}
+function po4() {
+	document.getElementById('img4').src = "img/oicon.svg";
+}
+function po5() {
+	document.getElementById('img5').src = "img/oicon.svg";
+}
+function po6() {
+	document.getElementById('img6').src = "img/oicon.svg";
+}
+function po7() {
+	document.getElementById('img7').src = "img/oicon.svg";
+}
+function po8() {
+	document.getElementById('img8').src = "img/oicon.svg";
+}
+function po9() {
+	document.getElementById('img9').src = "img/oicon.svg";
+}
+
+
+

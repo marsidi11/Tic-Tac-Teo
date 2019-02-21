@@ -19,11 +19,13 @@ tr {
 	width: 150px;
 	height: 150px;
 }
-input {
+button, input {
 	width: 90%;
 	height: 90%;
+	outline: none;
 	background: transparent	;
 	border: none;
+	justify-content: center;
 }
 ol {
 	font-family: "Staatliches"
@@ -75,6 +77,13 @@ p {
 	top: 88%;
 	margin-left: 8px;
 }
+img {
+	width: 140px;
+	height: 140px;
+}
+
+
+
 
 @media (max-width: 1000px) {
 	.title {
@@ -86,7 +95,6 @@ p {
 	.result {
 		position: absolute;
 		width: 100%;
-		position: absolute;
 		top: 100%;
 	}
 	table {
@@ -97,6 +105,10 @@ p {
 		margin-bottom: 100px;
 	}
 	.punoi {
+		justify-content: center;
+		text-align: center;
 		top: 208%;
+		margin: 20px;
+		left: 21%;
 	}
 }
