@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Staatliches');
-@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+@import url('https://fonts.googleapis.com/css?family=ZCOOL+QingKe+HuangYou');
+
 
 body {
 	background: #222; 
@@ -70,7 +71,7 @@ p {
 }
 .punoi {
 	font-size: 22px;
-	font-family: "Indie Flower";
+	font-family: "ZCOOL QingKe HuangYou";
 	background: #f39c12;
 	padding: 10px;
 	position: absolute;
@@ -81,7 +82,33 @@ img {
 	width: 140px;
 	height: 140px;
 }
-
+table, tr, td{
+	border-collapse: collapse;
+	border: 10px;
+	color: white;
+}
+.up{
+	border-bottom: solid;
+	border-right: solid;
+	border-collapse: collapse;
+}
+.right {
+	border-bottom: solid;
+	border-left: solid;
+	border-collapse: collapse;
+}
+.center {
+	border: solid;
+}
+.left {
+	border-bottom: solid;
+	border-right: solid;
+	border-top: solid;
+}
+.down {
+	border-left: solid;
+	border-right: solid;
+}
 
 
 

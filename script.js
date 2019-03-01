@@ -10,7 +10,61 @@ function winon() {
 	var bs9 = document.getElementById('img9').src;
 	var mo = "img/oicon.svg";
 	var mx = "img/xicon.svg";
+	var m = "data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs";
 
+	// CHECK IF "X" WON
+
+	if ((bs1 !== m) && (bs2 !== m) && (bs3 !== m) && (bs1 !== mx) && (bs2 !== mx) && (bs3 !== mx)) {
+		setTimeout(function() {alert("'O' WON")}, 500);
+	}
+	else if ((bs4 !== m) && (bs5 !== m) && (bs6 !== m) && (bs4 !== mx) && (bs5 !== mx) && (bs6 !== mx)) {
+		setTimeout(function() {alert("'O' WON")}, 500);
+	}
+	else if ((bs7 !== m) && (bs8 !== m) && (bs9 !== m) && (bs7 !== mx) && (bs8 !== mx) && (bs9 !== mx)) {
+		setTimeout(function() {alert("'O' WON")}, 500);
+	}
+	else if ((bs1 !== m) && (bs5 !== m) && (bs9 !== m) && (bs1 !== mx) && (bs5 !== mx) && (bs9 !== mx)) {
+		setTimeout(function() {alert("'O' WON")}, 500);
+	}
+	else if ((bs3 !== m) && (bs5 !== m) && (bs7 !== m) && (bs3 !== mx) && (bs5 !== mx) && (bs7 !== mx)) {
+		setTimeout(function() {alert("'O' WON")}, 500);
+	}
+	else if ((bs1 !== m) && (bs4 !== m) && (bs7 !== m) && (bs1 !== mx) && (bs4 !== mx) && (bs7 !== mx)) {
+		setTimeout(function() {alert("'O' WON")}, 500);
+	}
+	else if ((bs2 !== m) && (bs5 !== m) && (bs8 !== m) && (bs2 !== mx) && (bs5 !== mx) && (bs8 !== mx)) {
+		setTimeout(function() {alert("'O' WON")}, 500);
+	}
+	else if ((bs3 !== m) && (bs6 !== m) && (bs9 !== m) && (bs3 !== mx) && (bs6 !== mx) && (bs9 !== mx)) {
+		setTimeout(function() {alert("'O' WON")}, 500);
+	}
+
+	// CHECK IF "X" WON
+
+	else if ((bs1 !== m) && (bs2 !== m) && (bs3 !== m) && (bs1 !== mo) && (bs2 !== mo) && (bs3 !== mo)) {
+		setTimeout(function() {alert("'X' WON")}, 500);
+	}
+	else if ((bs4 !== m) && (bs5 !== m) && (bs6 !== m) && (bs4 !== mo) && (bs5 !== mo) && (bs6 !== mo)) {
+		setTimeout(function() {alert("'X' WON")}, 500);
+	}
+	else if ((bs7 !== m) && (bs8 !== m) && (bs9 !== m) && (bs7 !== mo) && (bs8 !== mo) && (bs9 !== mo)) {
+		setTimeout(function() {alert("'X' WON")}, 500);
+	}
+	else if ((bs1 !== m) && (bs5 !== m) && (bs9 !== m) && (bs1 !== mo) && (bs5 !== mo) && (bs9 !== mo)) {
+		setTimeout(function() {alert("'X' WON")}, 500);
+	}
+	else if ((bs3 !== m) && (bs5 !== m) && (bs7 !== m) && (bs3 !== mo) && (bs5 !== mo) && (bs7 !== mo)) {
+		setTimeout(function() {alert("'X' WON")}, 500);
+	}
+	else if ((bs1 !== m) && (bs4 !== m) && (bs7 !== m) && (bs1 !== mo) && (bs4 !== mo) && (bs7 !== mo)) {
+		setTimeout(function() {alert("'X' WON")}, 500);
+	}
+	else if ((bs2 !== m) && (bs5 !== m) && (bs8 !== m) && (bs2 !== mo) && (bs5 !== mo) && (bs8 !== mo)) {
+		setTimeout(function() {alert("'X' WON")}, 500);
+	}
+	else if ((bs3 !== m) && (bs6 !== m) && (bs9 !== m) && (bs3 !== mo) && (bs6 !== mo) && (bs9 !== mo)) {
+		setTimeout(function() {alert("'X' WON")}, 500);
+	}
 	
 }
 
