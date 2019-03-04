@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tic Tac Teo - 2 PLAYERS</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="icon" href="https://cdn4.iconfinder.com/data/icons/feather/24/x-circle-256.png">
+	<meta name="viewport" content="width=device-width">
+	<script type="text/javascript" src="script2.js"></script>
+</head>
+<body>
+	<!-- Table In Center -->
+
+	<table id="tic">
+		<tr>
+			<td class="up">
+				<button id="a1" onclick="po1()">
+					<img id="img1" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs">
+				</button>
+			</td>
+			<td class="up">
+				<button id="a2" onclick="po2()">
+					<img id="img2" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs">
+				</button>
+			</td>
+			<td class="right">
+				<button id="a3" onclick="po3()">
+					<img id="img3" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs">
+				</button>
+			</td>
+		</tr>
+		<tr>
+			<td class="left">
+				<button id="a4" onclick="po4()">
+					<img id="img4" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs">
+				</button>
+			</td>
+			<td class="center">
+				<button id="a5" onclick="po5()">
+					<img id="img5" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs">
+				</button>
+			</td>
+			<td class="right">
+				<button id="a6" onclick="po6()">
+					<img id="img6" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs">
+				</button>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<button id="a7" onclick="po7()">
+					<img id="img7" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs">
+				</button>
+			</td>
+			<td class="down">
+				<button id="a8" onclick="po8()">
+					<img id="img8" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs">
+				</button>
+			</td>
+			<td>
+				<button id="a9" onclick="po9()">
+					<img id="img9" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs">
+				</button>
+			</td>
+		</tr>
+	</table>
+	<!-- List With Title -->
+	<ol class="title">Tic Tac Teo</ol>
+	<!-- Result DIV -->
+	<div class="result">
+		<ol>Result</ol>
+		<form>
+			<ol>
+				<p>Player O</p>
+				<input id="playero" class="input0" type="text" readonly="readonly" 	placeholder="Player 1 Points">
+				<br> <br> 	
+				<p>Player X</p>
+				<input id="playerx" class="input0" type="text" readonly="readonly" 	placeholder="Player 2 Points">
+				<br>
+				<input class="reset" type="reset" name="">
+			</ol>
+		</form>
+	</div>
+	<span class="punoi">Punoi :  Marsid Zyberi</span>
+	<div id="popup">
+		<span id="o-won">O Won</span>
+		<span id="x-won">X Won</span>
+		<span id="draw">Draw</span>
+		<button onclick="playa()" id="again">Play Again</button>
+	</div>
+</body>
+</html>

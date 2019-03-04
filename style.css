@@ -154,6 +154,23 @@ table, tr, td{
 	font-size: 20px;
 	cursor: pointer;
 }
+
+a {
+	font-family: "ZCOOL QingKe HuangYou";
+	font-size: 80px;
+	color: red;
+	text-decoration: none;
+}
+.a1 {
+	position: absolute;
+	top: 40%;
+	left: 15%;
+}
+.a2 {
+	position: absolute;
+	top: 40%;
+	left: 60%;
+}
 @media (max-width: 1000px) {
 	.title {
 		position: absolute;
@@ -172,7 +189,6 @@ table, tr, td{
 		position: absolute;
 		justify-content: center;
 		top: 67%;
-		padding: 10%;
 		margin-bottom: 100px;
 	}
 	.punoi {
@@ -180,6 +196,18 @@ table, tr, td{
 		text-align: center;
 		top: 208%;
 		margin: 20px;
+		left: 25%;
+	}
+	a {
+		display: block;
+	}
+	.a1 {
+		position: absolute;
+		top: 30%;
+	}
+	.a2 {
+		position: absolute;
+		top: 60%;
 		left: 25%;
 	}
 }
