@@ -1,4 +1,8 @@
 var o = 5;
+var pointo = 0;
+var pointx = 0;
+
+// Check If "O" Won
 
 function wino() {
 	
@@ -38,6 +42,9 @@ function wino() {
 			winplayero();
 		}
 }
+
+// Check If "X" Won
+
 function winx() {
 	var bs1 = document.getElementById("img1").src;
 	var bs2 = document.getElementById("img2").src;
@@ -76,18 +83,42 @@ function winx() {
 		}
 }
 
-// Win O, Win X and Draw Function
+// Check If "Draw"
+
+function windraw() {
+	var bs1 = document.getElementById("img1").src;
+	var bs2 = document.getElementById("img2").src;
+	var bs3 = document.getElementById("img3").src;
+	var bs4 = document.getElementById("img4").src;
+	var bs5 = document.getElementById("img5").src;
+	var bs6 = document.getElementById("img6").src;
+	var bs7 = document.getElementById("img7").src;
+	var bs8 = document.getElementById("img8").src;
+	var bs9 = document.getElementById("img9").src;
+	var m = "data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs";
+
+	if ((bs1 !== m) && (bs2 !== m) && (bs3 !== m) && (bs4 !== m) && (bs5 !== m) && (bs6 !== m) && (bs7 !== m) && (bs8 !== m) && (bs9 !== m)) {
+		draw();
+	}
+}
+
+
+// Win O, Win X and Draw Style
 
 function winplayero() {
 	document.getElementById("popup").style.visibility = "visible";
 	document.getElementById("o-won").style.visibility = "visible";
 	document.getElementById("tic").style.opacity = ".1";
+	pointo += 1; 
+	document.getElementById("playero").value = pointo;
 }
 
 function winplayerx() {
 	document.getElementById("popup").style.visibility = "visible";
 	document.getElementById("x-won").style.visibility = "visible";
 	document.getElementById("tic").style.opacity = ".1";
+	pointx += 1;
+	document.getElementById("playerx").value = pointx;
 }
 
 function draw() {
@@ -102,6 +133,7 @@ function playa() {
 	document.getElementById("popup").style.visibility = "hidden";
 	document.getElementById("o-won").style.visibility = "hidden";
 	document.getElementById("x-won").style.visibility = "hidden";
+	document.getElementById("draw").style.visibility = "hidden";
 	document.getElementById("tic").style.opacity = "1";
 
 	// Set X/Y images to hidden
@@ -134,7 +166,7 @@ function checkpo1() {
 		wino();
 	} else {
 		document.getElementById("img1").src = "img/xicon.svg";
-
+		winx();
 	}
 }
 function checkpo2() {
@@ -223,28 +255,37 @@ function checkpo9() {
 
 function po1() {
 	checkpo1();
+	windraw();
 }
 function po2() {
 	checkpo2();
+	windraw();
 }
 function po3() {
 	checkpo3();
+	windraw();
 }
 function po4() {
 	checkpo4();
+	windraw();
 }
 function po5() {
 	checkpo5();
+	windraw();
 }
 function po6() {
 	checkpo6();
+	windraw();
 }
 function po7() {
 	checkpo7();
+	windraw();
 }
 function po8() {
 	checkpo8();
+	windraw();
 }
 function po9() {
 	checkpo9();
+	windraw();
 }
