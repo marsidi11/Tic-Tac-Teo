@@ -1,74 +1,42 @@
 var o = 5;
+// var bs1 = document.getElementById("img1").src;
+// var bs2 = document.getElementById("img2").src;
+// var bs3 = document.getElementById("img3").src;
+// var bs4 = document.getElementById("img4").src;
+// var bs5 = document.getElementById("img5").src;
+// var bs6 = document.getElementById("img6").src;
+// var bs7 = document.getElementById("img7").src;
+// var bs8 = document.getElementById("img8").src;
+// var bs9 = document.getElementById("img9").src;
+// var mo = "img/oicon.svg";
+// var mx = "img/xicon.svg";
+// var m = "data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs";
 
 function winoon() {
-	var bs1 = document.getElementById("img1").src;
-	var bs2 = document.getElementById("img2").src;
-	var bs3 = document.getElementById("img3").src;
-	var bs4 = document.getElementById("img4").src;
-	var bs5 = document.getElementById("img5").src;
-	var bs6 = document.getElementById("img6").src;
-	var bs7 = document.getElementById("img7").src;
-	var bs8 = document.getElementById("img8").src;
-	var bs9 = document.getElementById("img9").src;
-	var mo = "img/oicon.svg";
-	var mx = "img/xicon.svg";
-	var m = "data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs";
+	
 
 	// CHECK IF "X" WON
+	
+}
 
-	if ((bs1 !== mx) && (bs2 !== mx) && (bs3 !== mx) && (bs1 = mo) && (bs2 = mo) && (bs3 = mo)) {
-		setTimeout(winplayerx(), 500);
-	}
-	else if ((bs4 !== mx) && (bs5 !== mx) && (bs6 !== mx) && (bs4 = mo) && (bs5 = mo) && (bs6 = mo)) {
-		setTimeout(winplayero(), 500);
-	}
-	else if ((bs7 !== mx) && (bs8 !== mx) && (bs9 !== mx) && (bs7 = mo) && (bs8 = mo) && (bs9 = mo)) {
-		setTimeout(winplayero(), 500);
-	}
-	else if ((bs1 !== mx) && (bs5 !== mx) && (bs9 !== mx) && (bs1 = mo) && (bs5 = mo) && (bs9 = mo)) {
-		setTimeout(winplayero(), 500);
-	}
-	else if ((bs3 !== mx) && (bs5 !== mx) && (bs7 !== mx) && (bs3 = mo) && (bs5 = mo) && (bs7 = mo)) {
-		setTimeout(winplayero(), 500);
-	}
-	else if ((bs1 !== mx) && (bs4 !== mx) && (bs7 !== mx) && (bs1 = mo) && (bs4 = mo) && (bs7 = mo)) {
-		setTimeout(winplayero(), 500);
-	}
-	else if ((bs2 !== mx) && (bs5 !== mx) && (bs8 !== mx) && (bs2 = mo) && (bs5 = mo) && (bs8 = mo)) {
-		setTimeout(winplayero(), 500);
-	}
-	else if ((bs3 !== mx) && (bs6 !== mx) && (bs9 !== mx) && (bs3 = mo) && (bs9 = mo) && (bs6 = mo)) {
-		setTimeout(winplayero(), 500);
-	}
+// ON Change
 
-	// CHECK IF "X" WON
-
-	else if ((bs1 !== mo) && (bs2 !== mo) && (bs3 !== mo) && (bs1 = mx) && (bs2 = mx) && (bs3 = mx)) {
-		setTimeout(winplayerx(), 500);
-	}
-	else if ((bs4 !== mo) && (bs5 !== mo) && (bs6 !== mo) && (bs4 = mx) && (bs5 = mx) && (bs6 = mx)) {
-		setTimeout(winplayero(), 500);
-	}
-	else if ((bs7 !== mo) && (bs8 !== mo) && (bs9 !== mo) && (bs7 = mx) && (bs8 = mx) && (bs9 = mx)) {
-		setTimeout(winplayero(), 500);
-	}
-	else if ((bs1 !== mo) && (bs5 !== mo) && (bs9 !== mo) && (bs1 = mx) && (bs5 = mx) && (bs9 = mx)) {
-		setTimeout(winplayero(), 500);
-	}
-	else if ((bs3 !== mo) && (bs5 !== mo) && (bs7 !== mo) && (bs3 = mx) && (bs5 = mx) && (bs7 = mx)) {
-		setTimeout(winplayero(), 500);
-	}
-	else if ((bs1 !== mo) && (bs4 !== mo) && (bs7 !== mo) && (bs1 = mx) && (bs4 = mx) && (bs7 = mx)) {
-		setTimeout(winplayero(), 500);
-	}
-	else if ((bs2 !== mo) && (bs5 !== mo) && (bs8 !== mo) && (bs2 = mx) && (bs5 = mx) && (bs8 = mx)) {
-		setTimeout(winplayero(), 500);
-	}
-	else if ((bs3 !== mo) && (bs6 !== mo) && (bs9 !== mo) && (bs3 = mx) && (bs9 = mx) && (bs6 = mx)) {
-		setTimeout(winplayero(), 500);
+function oc1() {
+	if ((document.getElementById("img1").src == "img/oicon.svg") && (document.getElementById("img2").src == "img/oicon.svg") && (document.getElementById("img3").src == "img/oicon.svg")) {
+		alert("Hello World")
 	}
 }
 
+function oc2() {
+	if ((document.getElementById("img1").src == "img/oicon.svg") && (document.getElementById("img2").src == "img/oicon.svg") && (document.getElementById("img3").src == "img/oicon.svg")) {
+		alert("Hello World")
+	}
+}
+function oc3() {
+	if ((document.getElementById("img1").src == "img/oicon.svg") && (document.getElementById("img2").src == "img/oicon.svg") && (document.getElementById("img3").src == "img/oicon.svg")) {
+		alert("Hello World")
+	}
+}
 // Win O, Win X and Draw Function
 
 function winplayero() {
@@ -199,14 +167,17 @@ function checkpo9() {
 function po1() {
 	checkpo1();
 	winoon();
+	oc1();
 }
 function po2() {
 	checkpo2();
 	winoon();
+	oc2();
 }
 function po3() {
 	checkpo3();
 	winoon();
+	oc3();
 }
 function po4() {
 	checkpo4();
