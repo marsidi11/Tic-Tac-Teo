@@ -192,9 +192,10 @@ h2 {
 @media (max-width: 1000px) {
 	.title {
 		position: absolute;
-		margin-top: 2px;
-		font-size: 50px;
+		margin-top: 10px;
+		font-size: 60px;
 		width: 70%;
+		right: -50%;
 	}
 	.result {
 		position: absolute;
@@ -208,6 +209,7 @@ h2 {
 		justify-content: center;
 		top: 67%;
 		margin-bottom: 100px;
+		margin-left: 30%;
 	}
 	.punoi {
 		justify-content: center;
@@ -218,14 +220,15 @@ h2 {
 	}
 	a {
 		display: block;
+		font-size: 30px;
 	}
 	.a1 {
 		position: absolute;
-		top: 30%;
+		top: 40%;
 	}
 	.a2 {
 		position: absolute;
-		top: 60%;
+		top: 70%;
 		left: 25%;
 	}
 }
