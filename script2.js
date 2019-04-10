@@ -127,6 +127,16 @@ function draw() {
 	document.getElementById("tic").style.opacity = ".1";
 }
 
+// Reset Button // Points to 0
+
+function reseet() {
+	pointx = 0;
+	pointo = 0;
+	document.getElementById("playero").value = 0;
+	document.getElementById("playerx").value = 0;
+
+}
+
 // Play Again
 
 function playa() {
